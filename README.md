@@ -1,3 +1,12 @@
+---
+title: 高等数学笔记 网页版
+author: Steven Yan
+date: 2022-03-31
+description: 高等数学笔记 网页版
+---
+
+
+
 # 高等数学笔记 网页版
 
 > Repo: https://github.com/Steven-nagisa-Y/math-notes-html
