@@ -25,5 +25,5 @@ description: 高等数学笔记 网页版
 
 ## 遇到问题请提Issues
 
-
+[Steven-nagisa-Y/math-notes-html/issues](https://github.com/Steven-nagisa-Y/math-notes-html/issues)
 
