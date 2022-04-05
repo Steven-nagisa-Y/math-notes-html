@@ -8,6 +8,82 @@
 <meta name="description" content="高等数学笔记 网页版">
 <link rel="shortcut icon" href="https://ryzenx.com/img/favicon.ico">
 <meta name="updatetime" content="2022-03-31">
+<style>
+@font-face {
+  font-family: "STIX2Text";
+  font-style: normal;
+  font-weight: normal;
+  src: local("STIX2Text Regular"),
+    url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STIX2Text-Regular.woff")
+      format("woff"),
+    url("ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "STIX2Text";
+  font-style: italic;
+  font-weight: normal;
+  src: local("STIX2Text Italic"),
+    url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STIX2Text-Italic.woff")
+      format("woff"),
+    url("ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "STIX2Text";
+  font-style: normal;
+  font-weight: bold;
+  src: local("STIX2Text Bold"),
+    url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STIX2Text-Bold.woff")
+      format("woff"),
+    url("ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "STIX2Text";
+  font-style: italic;
+  font-weight: bold;
+  src: local("STIX2Text Bold Italic"),
+    url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STIX2Text-BoldItalic.woff")
+      format("woff"),
+    url("ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-BoldItalic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "STIX2Math";
+  font-style: italic;
+  font-weight: bold;
+  src: local("STIX2Math"),
+    url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STIX2Math.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "华文中宋";
+  src: url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STZHONGS.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "华文中宋";
+  src: url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/STZHONGS_Bold.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "CamingoCodeRegular";
+  src: url("https://ryzenx.oss-cn-hangzhou.aliyuncs.com/font/CamingoCode-Regular-1.woff")
+    format("woff");
+}
+</style>
 <style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
@@ -206,10 +282,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 
 
-@font-face {
-    font-family: "CamingoCodeRegular";
-    src: url('file:///Users/steven/Library/Application%20Support/abnerworks.Typora/themes/academic-zh/CamingoCode-Regular-1.woff') format('woff');
-}/**
+/**
 * 已优化打印
 * 
 **/
@@ -575,7 +648,7 @@ img {
 </style>
 </head>
 <body class='typora-export typora-export-show-outline typora-export-collapse-outline'><div class='typora-export-content'>
-<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#高等数学笔记-网页版">高等数学笔记 网页版</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#目录">目录</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#遇到问题请提issues">遇到问题请提Issues</a></div><ul class="outline-children"></ul></li></ul></li></div></div><div id='write'  class=''><p>&nbsp;</p><h1 id='高等数学笔记-网页版'><span>高等数学笔记 网页版</span></h1><blockquote><p><span>Repo: </span><a href='https://github.com/Steven-nagisa-Y/math-notes-html' target='_blank' class='url'>https://github.com/Steven-nagisa-Y/math-notes-html</a></p></blockquote><p><strong><span>仅供参考阅读，禁止二次贩卖</span></strong></p><h2 id='目录'><span>目录</span></h2><ul><li><a href='./一.%20函数与极限.html'><span>函数与极限</span></a></li><li><a href='./二.%20导数与微分.html'><span>导数与微分</span></a></li><li><a href='./三.%20中值定路与导数的应用.html'><span>中值定理与导数的应用</span></a></li><li><a href='./四.%20不定积分.html'><span>不定积分</span></a></li><li><a href='./五.%20定积分.html'><span>定积分</span></a></li><li><a href='./六.%20定积分的应用.html'><span>定积分的应用</span></a></li></ul><h2 id='遇到问题请提issues'><span>遇到问题请提Issues</span></h2><p><a href='https://github.com/Steven-nagisa-Y/math-notes-html/issues'><span>Steven-nagisa-Y/math-notes-html/issues</span></a></p><p>&nbsp;</p></div></div>
+<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1 outline-item-open"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#高等数学笔记-网页版">高等数学笔记 网页版</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#目录">目录</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#注意">注意</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#发现错误请提issues">发现错误请提Issues</a></div><ul class="outline-children"></ul></li></ul></li></div></div><div id='write'  class=''><p>&nbsp;</p><h1 id='高等数学笔记-网页版'><span>高等数学笔记 网页版</span></h1><blockquote><p><span>Repo: </span><a href='https://github.com/Steven-nagisa-Y/math-notes-html' target='_blank' class='url'>https://github.com/Steven-nagisa-Y/math-notes-html</a></p></blockquote><p>&nbsp;</p><h2 id='目录'><span>目录</span></h2><ul><li><a href='./一.%20函数与极限.html'><span>函数与极限</span></a></li><li><a href='./二.%20导数与微分.html'><span>导数与微分</span></a></li><li><a href='./三.%20中值定路与导数的应用.html'><span>中值定理与导数的应用</span></a></li><li><a href='./四.%20不定积分.html'><span>不定积分</span></a></li><li><a href='./五.%20定积分.html'><span>定积分</span></a></li><li><a href='./六.%20定积分的应用.html'><span>定积分的应用</span></a></li></ul><p>&nbsp;</p><h2 id='注意'><span>注意</span></h2><center><b>网页版仅供参考阅读，禁止二次贩卖</b></center><center><b>购买Markdown源代码：<a href="mailto:me@StevenOS.com">me@StevenOS.com</a></b></center><p>&nbsp;</p><h2 id='发现错误请提issues'><span>发现错误请提Issues</span></h2><p><a href='https://github.com/Steven-nagisa-Y/math-notes-html/issues'><span>Steven-nagisa-Y/math-notes-html/issues</span></a></p></div></div>
 
 <script>(function (){var t=document.body.parentElement,e=[],n=null,i=document.body.classList.contains("typora-export-collapse-outline"),r=function(t,e,n){document.addEventListener(t,function(t){if(!t.defaultPrevented)for(var i=t.target;i&&i!=this;i=i.parentNode)if(i.matches(e)){!1===n.call(i,t)&&(t.preventDefault(),t.stopPropagation());break}},!1)};function o(){return t.scrollTop}r("click",".outline-expander",function(t){var e=this.closest(".outline-item-wrapper").classList;return e.contains("outline-item-open")?e.remove("outline-item-open"):e.add("outline-item-open"),c(),!1}),r("click",".outline-item",function(t){var e=this.querySelector(".outline-label");if(location.hash="#"+e.getAttribute("href"),i){var n=this.closest(".outline-item-wrapper").classList;n.contains("outline-item-open")||n.add("outline-item-open"),l(),n.add("outline-item-active")}});var a,s,u=function(){var t=o();n=null;for(var i=0;i<e.length&&e[i][1]-t<60;i++)n=e[i]},l=function(){document.querySelectorAll(".outline-item-active").forEach(t=>t.classList.remove("outline-item-active")),document.querySelectorAll(".outline-item-single.outline-item-open").forEach(t=>t.classList.remove("outline-item-open"))},c=function(){if(n){l();var t=document.querySelector('.outline-label[href="#'+(CSS.escape?CSS.escape(n[0]):n[0])+'"]');if(t)if(i){var e=t.closest(".outline-item-open>ul>.outline-item-wrapper");if(e)e.classList.add("outline-item-active");else{for(var r=(t=t.closest(".outline-item-wrapper")).parentElement.closest(".outline-item-wrapper");r;)r=(t=r).parentElement.closest(".outline-item-wrapper");t.classList.add("outline-item-active")}}else t.closest(".outline-item-wrapper").classList.add("outline-item-active")}};window.addEventListener("scroll",function(t){a&&clearTimeout(a),a=setTimeout(function(){u(),c()},300)});var f=function(){s=setTimeout(function(){!function(){e=[];var t=o();document.querySelector("#write").querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(n=>{var i=n.getAttribute("id");e.push([i,t+n.getBoundingClientRect().y])})}(),u(),c()},300)};window.addEventListener("resize",function(t){s&&clearTimeout(s),f()}),f()})();</script><script>
 var ua,title=document.getElementsByTagName("title")[0].textContent,updatetime=document.getElementsByTagName("meta").updatetime.content,pageUrl=(console.log("%cTitle: "+title+"\nUpdateTime: "+updatetime,"font-size:14px;background-color:black;color:white;padding:4px;margin:4px;"),ua=navigator.userAgentData?(ua=navigator.userAgentData.platform||"Unknown")+" "+navigator.userAgentData.brands[2].brand+" var."+navigator.userAgentData.brands[2].version:navigator.userAgent,console.log("%c"+ua,"font-size:14px;background-color:black;color:white;padding:4px;margin:4px;"),window.location.href);function addLink(){var e,o="<br/><br/>Please indicate the URL for forwarding: <br/>\n"+window.location.href+"<br/>\n",t=selection=window.getSelection()?window.getSelection():document.selection.createRange().text;window.clipboardData?window.clipboardData.setData("Text",t+o):((e=document.createElement("div")).style.position="absolute",e.style.left="-99999px",e.style.top="-99999px",document.body.appendChild(e),e.innerHTML=t+o,selection.selectAllChildren(e),window.setTimeout(function(){document.body.removeChild(e)},0))}console.log("%cPlease indicate the URL for forwarding: "+pageUrl,"font-size:14px;background-color:yellow;color:black;padding:4px;margin:4px;"),console.log("%cWebsite: https://RyzenX.com","font-size:24px;background-color:red;color:white;padding:4px;margin:4px;"),console.log("%cCopyright 2022 Steven Yan. All rights reserved.","font-size:24px;background-color:blue;color:white;padding:4px;margin:4px;"),document.oncopy=addLink;

@@ -11,7 +11,7 @@ description: 高等数学笔记 网页版
 
 > Repo: https://github.com/Steven-nagisa-Y/math-notes-html
 
-**仅供参考阅读，禁止二次贩卖**
+
 
 ## 目录
 
@@ -23,7 +23,15 @@ description: 高等数学笔记 网页版
 - [定积分的应用](./六.%20定积分的应用.html)
 
 
-## 遇到问题请提Issues
+
+## 注意
+
+<center><b>网页版仅供参考阅读，禁止二次贩卖</b></center>
+
+<center><b>购买Markdown源代码：<a href="mailto:me@StevenOS.com">me@StevenOS.com</a></b></center>
+
+
+
+## 发现错误请提Issues
 
 [Steven-nagisa-Y/math-notes-html/issues](https://github.com/Steven-nagisa-Y/math-notes-html/issues)
-
