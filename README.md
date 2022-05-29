@@ -1,7 +1,7 @@
 ---
 title: 高等数学笔记 网页版
 author: Steven Yan
-date: 2022-03-31
+date: 2022-05-29
 description: 高等数学笔记 网页版
 ---
 
@@ -15,6 +15,7 @@ description: 高等数学笔记 网页版
 
 ## 目录
 
+- [合集](./高等数学-上.html)
 - [函数与极限](./一.%20函数与极限.html)
 - [导数与微分](./二.%20导数与微分.html)
 - [中值定理与导数的应用](./三.%20中值定路与导数的应用.html)
@@ -28,7 +29,7 @@ description: 高等数学笔记 网页版
 
 <center><b>网页版仅供参考阅读，禁止二次贩卖</b></center>
 
-<center><b>购买Markdown源代码：<a href="mailto:me@StevenOS.com">me@StevenOS.com</a></b></center>
+<center><b>购买Markdown源代码：<a href="mailto:app.json@hotmail.com">app.json@hotmail.com</a></b></center>
 
 
 
